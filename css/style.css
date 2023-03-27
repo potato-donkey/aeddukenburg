@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Franklin";
+  src: url(../assets/Franklin\ Gothic\ Demi\ Regular.woff);
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/Rubik-Regular.woff");
+}
+
+:root {
+  --navbar-height: 7rem;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-item,
+.is-header-font {
+  font-family: "Franklin", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+nav.big {
+  height: var(--navbar-height);
+}
+
+.navbar-brand > .navbar-item > img {
+  height: calc(var(--navbar-height) * 0.8);
+}
+
+.navbar-item img {
+  max-height: 10rem;
+}
+
+.navbar-item {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.navbar-item:hover {
+  color: #009a3b !important;
+  background-color: inherit !important;
+}
+
+.navbar-item.selected {
+  font-weight: bold;
+}
+
+/* Hero */
+
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+}
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+}
+.hero-background.is-transparent {
+  opacity: 0.3;
+}
+
+.hero.big {
+  height: calc(var(--navbar-height) * 2);
+}
+
+/* Footer */
+
+.footer-links-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Franklin";
+  font-size: 1.25rem;
+}
+
+ul.caret-prefix {
+  list-style-type: "> ";
+}
+
+ul.col-4 {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+
+/* Mid columns */
+
+.hovercolumn {
+  transition: 0.2s;
+}
+
+.hovercolumn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
