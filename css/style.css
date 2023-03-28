@@ -59,6 +59,10 @@ nav.big {
   font-weight: bold;
 }
 
+.pad-navbar {
+  padding-top: var(--navbar-height);
+}
+
 /* Hero */
 
 .hero.has-background {
