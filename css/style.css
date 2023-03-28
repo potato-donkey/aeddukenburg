@@ -111,4 +111,5 @@ ul.col-4 {
 .hovercolumn:hover {
   transform: scale(1.05);
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
 }
