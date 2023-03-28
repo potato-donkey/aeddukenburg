@@ -7,7 +7,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 const defibrillatorIcon = L.icon({
-  iconUrl: "../leaflet/images/defibrillator.jpg",
+  iconUrl: "./leaflet/images/defibrillator.jpg",
   iconSize: [32, 32],
   iconAnchor: [16, 16],
   popupAnchor: [0, -32],
