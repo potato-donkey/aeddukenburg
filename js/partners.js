@@ -1,6 +1,6 @@
 const partnersList = document.querySelector("ul#partners");
 
-fetch("../data/partners.json").then((res) => {
+fetch("./data/partners.json").then((res) => {
   res.json().then((data) => {
     data.forEach((partner) => {
       const li = document.createElement("li");
